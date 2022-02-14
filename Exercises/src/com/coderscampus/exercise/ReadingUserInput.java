@@ -10,7 +10,7 @@ public class ReadingUserInput {
 			String userInput = readInput.nextLine();
 			Integer convertedUserInput = Integer.parseInt(userInput);
 			Object output = getMessage(convertedUserInput);
-			System.out.println(output);			
+			System.out.println("The number you typed in was: " + output);			
 			readInput.close();
 			
 	}
